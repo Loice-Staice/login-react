@@ -15,6 +15,9 @@ const Login = () =>{
             <input placeholder="Enter username" type="text" onChange={(event)=>setUsername(event.target.value)}/>
             <br/>
             <input placeholder="Enter password" type="password" onChange={(event)=>setPassword(event.target.value)}/>
+            {/* {error && (
+                <p style={{ color: 'red' }}>{error}</p>
+              )} */}
             <br/>
             <button type="submit">Login</button>
         </form>
